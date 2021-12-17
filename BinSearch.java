@@ -10,7 +10,7 @@ public class BinSearch{
      int mid = (low + high) / 2;
      
      while(true){
-         if(list[mid] == target)      break; // terminate & return counter
+         if(list[mid] == target)      break; // terminate 
          if (list[mid] < target)      low = mid + 1; // update the lower bound 
          else if (list[mid] > target) high = mid - 1; // update the lower bound
          
