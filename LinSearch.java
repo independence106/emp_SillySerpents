@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Main{
+public class LinSearch{
  public static long guessTimer(int[] list, int target){
      // Determines time required (in ms) to locate target (using linear search)
      
