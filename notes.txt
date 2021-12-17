@@ -1,0 +1,17 @@
+/*
+Vansh:
+- The worst case scenario for linear search is "n" guesses, whereas the worst case scenario for binary search is ~log_2(n) guesses, 
+so the binary search should require SIGNIFICANTLY less time even with worst case scenarios, especially as n tends to infinity
+
+- Binary search requires at most log_2(n) + 1 guesses to reach a target element, because binary search involves shrinking the problem into halves, so:
+    n * (1/2)^k < 1 // (k is # of guesses) // (shrink the search space until it "less" than 1, since a search space of 1 element still requires 1 guess)
+  
+  if you manipulate that formula for k, you get:
+    n < 2^k
+    log_2(n) < k
+  
+  Since k is greater than log_2(n), it's the same concept as adding 1 and rounding down in order to get the minimum number of guesses required using binary search
+
+Jason:
+- 
+*/
