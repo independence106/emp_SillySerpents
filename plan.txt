@@ -1,0 +1,8 @@
+/*
+- At the beginning of the linear search guess invocation, determine the time
+- Determine the time at the end
+- Find their difference and return it
+- Determine the maximum time it takes to find any certain index
+
+- Adjust plan accordingly for binary search
+*/
