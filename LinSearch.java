@@ -17,7 +17,7 @@ public class Main{
  
  
  public static String maxTimeGuesses(int numElements){
-    // Determine the maximum amount of time required to find any certain element in a sorted list of a given amount of elements (w/ binary search)    
+    // Determine the maximum amount of time required to find any certain element in a sorted list of a given amount of elements (w/ linear search)    
      
      // Create a list with numElements as many elements, and populate it with index = elements to ensure ascending order 
      int[] list = new int[numElements];
