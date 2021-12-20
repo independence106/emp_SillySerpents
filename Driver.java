@@ -12,7 +12,7 @@ public class Driver {
           LinSearch.linSearch(b, i);
       }
       end = System.currentTimeMillis();
-      timesLin = end - start;
+      timesLin = end - start;}
 
       System.out.println("Time to find all values: " + timesLin);
       long timesBin = 0;
@@ -51,13 +51,14 @@ public class Driver {
 
 
 
-    public void maxSearchTime(Comparable[] a) {
+    public void maxSearchTime(Compa}rable[] a) {
 
     }
 
     public static void main(String[] args) {
       Driver driver = new Driver();
       int size = 100000000;
+      // ArrayList<Comparable[]> e  = new ArrayList<Comparable[]>();
       Comparable[] a = new Comparable[80000000];
       Comparable[] b = new Comparable[10000000];
       Comparable[] c = new Comparable[1000000];
@@ -139,5 +140,7 @@ public class Driver {
       driver.combinedSearchTime(h);
     }
 
+    // Maybe see if binary search is still faster than linear search in the BEST CASE for linear searching
+    // (ie index 1 for array of 100 values)
 
   }
