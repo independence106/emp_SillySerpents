@@ -1,1 +1,2 @@
 12/18/21: Added methods to compute total time taken and individual time, skeletons of some additional methods I might be using
+12/19/21: New arrays with different length sizes
