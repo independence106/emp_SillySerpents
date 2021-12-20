@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 public class LinSearch{
-      public static int linSearch ( Comparable[] a, Comparable target )
+      public static int linSearch ( Comparable[] a, int target )
   {
     int tPos = -1;
     int i = 0;
