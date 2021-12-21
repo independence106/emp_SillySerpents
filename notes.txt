@@ -15,5 +15,6 @@ so the binary search should require SIGNIFICANTLY less time even with worst case
 - Doubling the length of the array we're searching through increases the maximum potential number of operations required for a binary search by 1, but doubles the maximum potential number of operations requried by a linear search - so binary search gets more and more efficient for larger datasets than its linear equivalent.
 
 Jason:
-- 
+- So I was thinking, besides not using linear search, is it possible to further reduce time by using a multithreading approach? Additionally, why were we not allowed to use nanoTime().
+- Time complexity = cool
 */
