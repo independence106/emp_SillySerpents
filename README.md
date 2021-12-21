@@ -13,6 +13,8 @@
   - Bin Search is always faster than lin search for total search time
   - Bin Search is almost always faster than lin search for individual element search time, with a few outliers
 
+  [Click Here for results](https://github.com/independence106/emp_SillySerpents/blob/main/results.txt)
+
 ## Conclusion: 
   - Bin Search is faster overall for the entire search space, and in general
   - Lin Search is only faster for beginning values of the array (THAT ARE IN THE ARRAY)
