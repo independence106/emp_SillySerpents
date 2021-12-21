@@ -11,6 +11,8 @@ so the binary search should require SIGNIFICANTLY less time even with worst case
     log_2(n) < k
   
   Since k is greater than log_2(n), it's the same concept as adding 1 and rounding down in order to get the minimum number of guesses required using binary search
+  
+- Doubling the length of the array we're searching through increases the maximum potential number of operations required for a binary search by 1, but doubles the maximum potential number of operations requried by a linear search - so binary search gets more and more efficient for larger datasets than its linear equivalent.
 
 Jason:
 - 
