@@ -205,8 +205,14 @@ public class SearchDriver {
 
       System.out.println("Combined Search Times: (Time to search EVERY element in an array");
 
+      System.out.println("Searching a " + b.length + " element array");
+      driver.combinedSearchTime(b);
+        
       System.out.println("Searching a " + m.length + " element array");
       driver.combinedSearchTime(m);
+        
+      System.out.println("Searching a " + d.length + " element array");
+      driver.combinedSearchTime(d);
         
       System.out.println("Searching a " + e.length + " element array");
       driver.combinedSearchTime(e);
