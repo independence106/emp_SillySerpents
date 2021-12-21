@@ -1,8 +1,9 @@
-/*
-- At the beginning of the linear search guess invocation, determine the time
-- Determine the time at the end
-- Find their difference and return it
-- Determine the maximum time it takes to find any certain index
 
-- Adjust plan accordingly for binary search
-*/
+- Determine the time at the beginning of the linear search invocation and store it as a "start"
+- Determine the time at the end
+- Find their difference in the start and end times (time taken) and return it
+- Determine the maximum time it takes to find any certain index (WORST CASE)
+- Determine the average time (AVERAGE/MEAN CASE)
+- Adjust the above to work with the binary search
+- Analyze the data and draw conclusions
+
