@@ -132,18 +132,20 @@ public class SearchDriver {
         driver.individualSearchTime(d, randomNum / 10000);
         */
         
-        // Time required to find a a randomly selected element (1000 trials)
-        System.out.println("Searching a " + b.length + " sized array, 1000 times");
-          driver.individualSearchTime(b, (int) (Math.random() * b.length), 1000 );
-        
-        System.out.println("Searching a " + c.length + " sized array, 1000 times");
-        driver.individualSearchTime(c, (int) (Math.random() * c.length), 1000 );
-        
-        System.out.println("Searching a " + d.length + " sized array, 1000 times");
-        driver.individualSearchTime(d, (int) (Math.random() * d.length), 1000 );
-        
-        System.out.println("Searching a " + e.length + " sized array, 1000 times");
-        driver.individualSearchTime(e, (int) (Math.random() * e.length) , 1000);
+        // Time required to find a a randomly selected element (1000 trials) (Do this 10 times)
+        for (int i = 0; i < 15; i++) {
+          System.out.println("Searching a " + b.length + " sized array, 1000 times");
+            driver.individualSearchTime(b, (int) (Math.random() * b.length), 1000 );
+          
+          System.out.println("Searching a " + c.length + " sized array, 1000 times");
+          driver.individualSearchTime(c, (int) (Math.random() * c.length), 1000 );
+          
+          System.out.println("Searching a " + d.length + " sized array, 1000 times");
+          driver.individualSearchTime(d, (int) (Math.random() * d.length), 1000 );
+          
+          System.out.println("Searching a " + e.length + " sized array, 1000 times");
+          driver.individualSearchTime(e, (int) (Math.random() * e.length) , 1000);
+        }
 
 
       //Searching worst case scenarios (Last + First)
