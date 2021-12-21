@@ -57,7 +57,7 @@ public class Driver {
 
     public static void main(String[] args) {
       Driver driver = new Driver();
-      int size = 100000000;
+      // int size = 100000000;
       // ArrayList<Comparable[]> e  = new ArrayList<Comparable[]>();
       Comparable[] a = new Comparable[80000000];
       Comparable[] b = new Comparable[10000000];
@@ -104,7 +104,7 @@ public class Driver {
 
 
 
-        int randomNum = (int) (Math.random() * 10000000);
+        // int randomNum = (int) (Math.random() * 10000000);
            /* System.out.println("Searching a " + size + " sized array.");
           driver.individualSearchTime(b, randomNum);
         System.out.println("Searching a " + size / 10 + " sized array.");
@@ -114,20 +114,22 @@ public class Driver {
         System.out.println("Searching a " + size / 1000 + " sized array.");
         driver.individualSearchTime(d, randomNum / 10000);
         */
+        
+        // Time required to find a a randomly selected element
         System.out.println("Searching a " + b.size + " sized array.");
-          driver.individualSearchTime(b, randomNum);
+          driver.individualSearchTime(b, (int) (Math.random() * b.size) );
         
         System.out.println("Searching a " + c.size + " sized array.");
-        driver.individualSearchTime(c, randomNum / 10);
+        driver.individualSearchTime(c, (int) (Math.random() * c.size) );
         
         System.out.println("Searching a " + d.size + " sized array.");
-        driver.individualSearchTime(d, randomNum / 100);
+        driver.individualSearchTime(d, (int) (Math.random() * d.size) );
         
         System.out.println("Searching a " + e.size + " sized array.");
-        driver.individualSearchTime(e, randomNum / 10000);
+        driver.individualSearchTime(e, (int) (Math.random() * e.size) );
 
 
-      //Searching Worst case scenarios (Last + First)
+      //Searching worst case scenarios (Last + First)
       System.out.println("Searching worst & best case scenarios");
       driver.start = System.currentTimeMillis();
       BinSearch.binSearch(a, 100000000);
