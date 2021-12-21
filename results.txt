@@ -1,0 +1,184 @@
+RANDOM:
+
+Searching a 10000000 sized array, 1000 times
+Done, Lin took: 27196
+Done, Bin took: 4
+Searching a 1000000 sized array, 1000 times
+Done, Lin took: 2322
+Done, Bin took: 0
+Searching a 100000 sized array, 1000 times
+Done, Lin took: 184
+Done, Bin took: 0
+Searching a 10000 sized array, 1000 times
+Done, Lin took: 11
+Done, Bin took: 1
+Searching a 10000000 sized array, 1000 times
+Done, Lin took: 26290
+Done, Bin took: 0
+Searching a 1000000 sized array, 1000 times
+Done, Lin took: 172
+Done, Bin took: 0
+Searching a 100000 sized array, 1000 times
+Done, Lin took: 118
+Done, Bin took: 0
+Searching a 10000 sized array, 1000 times
+Done, Lin took: 4
+Done, Bin took: 0
+Searching a 10000000 sized array, 1000 times
+Done, Lin took: 15715
+Done, Bin took: 0
+Searching a 1000000 sized array, 1000 times
+Done, Lin took: 2093
+Done, Bin took: 0
+Searching a 100000 sized array, 1000 times
+Done, Lin took: 39
+Done, Bin took: 0
+Searching a 10000 sized array, 1000 times
+Done, Lin took: 16
+Done, Bin took: 0
+Searching a 10000000 sized array, 1000 times
+Done, Lin took: 24262
+Done, Bin took: 0
+Searching a 1000000 sized array, 1000 times
+Done, Lin took: 2859
+Done, Bin took: 0
+Searching a 100000 sized array, 1000 times
+Done, Lin took: 0
+Done, Bin took: 0
+Searching a 10000 sized array, 1000 times
+Done, Lin took: 15
+Done, Bin took: 0
+Searching a 10000000 sized array, 1000 times
+Done, Lin took: 25041
+Done, Bin took: 0
+Searching a 1000000 sized array, 1000 times
+Done, Lin took: 3072
+Done, Bin took: 0
+Searching a 100000 sized array, 1000 times
+Done, Lin took: 179
+Done, Bin took: 0
+Searching a 10000 sized array, 1000 times
+Done, Lin took: 13
+Done, Bin took: 0
+Searching a 10000000 sized array, 1000 times
+Done, Lin took: 15339
+Done, Bin took: 1
+Searching a 1000000 sized array, 1000 times
+Done, Lin took: 2713
+Done, Bin took: 0
+Searching a 100000 sized array, 1000 times
+Done, Lin took: 94
+Done, Bin took: 0
+Searching a 10000 sized array, 1000 times
+Done, Lin took: 16
+Done, Bin took: 0
+Searching a 10000000 sized array, 1000 times
+Done, Lin took: 33712
+Done, Bin took: 0
+Searching a 1000000 sized array, 1000 times
+Done, Lin took: 2542
+Done, Bin took: 0
+Searching a 100000 sized array, 1000 times
+Done, Lin took: 169
+Done, Bin took: 0
+Searching a 10000 sized array, 1000 times
+Done, Lin took: 16
+Done, Bin took: 0
+Searching a 10000000 sized array, 1000 times
+Done, Lin took: 4884
+Done, Bin took: 0
+Searching a 1000000 sized array, 1000 times
+Done, Lin took: 2818
+Done, Bin took: 1
+Searching a 100000 sized array, 1000 times
+Done, Lin took: 278
+Done, Bin took: 0
+Searching a 10000 sized array, 1000 times
+Done, Lin took: 25
+Done, Bin took: 0
+Searching a 10000000 sized array, 1000 times
+
+LAST + FIRST + MIDDLE:
+
+Searching last elements (x100):
+Searching in a
+Done, Lin took: 30026
+Done, Bin took: 0
+Searching in b
+Done, Lin took: 3499
+Done, Bin took: 0
+Searching in c
+Done, Lin took: 344
+Done, Bin took: 0
+Searching in d
+Done, Lin took: 16
+Done, Bin took: 0
+Searching in e
+Done, Lin took: 15
+Done, Bin took: 0
+Searching in f
+Done, Lin took: 0
+Done, Bin took: 0
+Searching in g
+Done, Lin took: 0
+Done, Bin took: 0
+Searching in h
+Done, Lin took: 0
+Done, Bin took: 0
+Searching middle elements (x100):
+Searching in a
+Done, Lin took: 15740
+Done, Bin took: 0
+Searching in b
+Done, Lin took: 1720
+Done, Bin took: 0
+Searching in c
+Done, Lin took: 133
+Done, Bin took: 0
+Searching in d
+Done, Lin took: 0
+Done, Bin took: 0
+Searching in e
+Done, Lin took: 0
+Done, Bin took: 0
+Searching in f
+Done, Lin took: 0
+Done, Bin took: 0
+Searching in g
+Done, Lin took: 0
+Done, Bin took: 0
+Searching in h
+Done, Lin took: 0
+Done, Bin took: 0
+Seaching for favorable elements that will make lin faster than bin
+Searching in g (100 length) 1000000 times
+Done, Lin took: 32
+Done, Bin took: 31
+Searching in g (10 length) 1000000 times
+Done, Lin took: 0
+Done, Bin took: 16
+
+
+Combined: 
+
+Combined Search Times: (Time to search EVERY element in an array
+Searching a 200000 element array
+Time to find all values: 55685
+Time to find all values: 50
+Searching a 100000 element array
+Time to find all values: 10485
+Time to find all values: 31
+Searching a 10000 element array
+Time to find all values: 97
+Time to find all values: 0
+Searching a 1000 element array
+Time to find all values: 0
+Time to find all values: 0
+Searching a 100 element array
+Time to find all values: 0
+Time to find all values: 0
+Searching a 10 element array
+Time to find all values: 0
+Time to find all values: 0
+
+

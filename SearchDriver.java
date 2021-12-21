@@ -131,21 +131,21 @@ public class SearchDriver {
         System.out.println("Searching a " + size / 1000 + " sized array.");
         driver.individualSearchTime(d, randomNum / 10000);
         */
-        
+        System.out.println("RANDOM NUM SEARCH");
         // Time required to find a a randomly selected element (1000 trials) (Do this 10 times)
-        for (int i = 0; i < 15; i++) {
-          System.out.println("Searching a " + b.length + " sized array, 1000 times");
-            driver.individualSearchTime(b, (int) (Math.random() * b.length), 1000 );
+        // for (int i = 0; i < 15; i++) {
+        //   System.out.println("Searching a " + b.length + " sized array, 1000 times");
+        //     driver.individualSearchTime(b, (int) (Math.random() * b.length), 1000 );
           
-          System.out.println("Searching a " + c.length + " sized array, 1000 times");
-          driver.individualSearchTime(c, (int) (Math.random() * c.length), 1000 );
+        //   System.out.println("Searching a " + c.length + " sized array, 1000 times");
+        //   driver.individualSearchTime(c, (int) (Math.random() * c.length), 1000 );
           
-          System.out.println("Searching a " + d.length + " sized array, 1000 times");
-          driver.individualSearchTime(d, (int) (Math.random() * d.length), 1000 );
+        //   System.out.println("Searching a " + d.length + " sized array, 1000 times");
+        //   driver.individualSearchTime(d, (int) (Math.random() * d.length), 1000 );
           
-          System.out.println("Searching a " + e.length + " sized array, 1000 times");
-          driver.individualSearchTime(e, (int) (Math.random() * e.length) , 1000);
-        }
+        //   System.out.println("Searching a " + e.length + " sized array, 1000 times");
+        //   driver.individualSearchTime(e, (int) (Math.random() * e.length) , 1000);
+        // }
 
 
       //Searching worst case scenarios (Last + First)
@@ -190,13 +190,16 @@ public class SearchDriver {
       //Checking if lin search ever faster than bin search (small arrs)
       //NOT IMPORTANT JUST INTERESTING
       System.out.println("Seaching for favorable elements that will make lin faster than bin");
-      System.out.println("Searching in g (100 length) 1000000 times");
-      driver.individualSearchTime(g, 1, 1000000);
-      System.out.println("Searching in g (10 length) 1000000 times");
-      driver.individualSearchTime(h, 1, 1000000);
+      System.out.println("Searching in c (1000000 length) 10000000 times");
+      driver.individualSearchTime(c, 1, 10000000);
 
+      System.out.println("Searching in g (100 length) 10000000 times");
+      driver.individualSearchTime(g, 1, 10000000);
+      System.out.println("Searching in h (10 length) 10000000 times");
+      driver.individualSearchTime(h, 1, 10000000);
+      
 
-      System.out.println(driver.end - driver.start);
+      
       // //next finds the average time to search for every element - shall do random ones too with different sizes
       Comparable[] m = new Comparable[200000];
       for (int i = 0; i < m.length; i++) {
@@ -205,8 +208,6 @@ public class SearchDriver {
 
       System.out.println("Combined Search Times: (Time to search EVERY element in an array");
 
-      System.out.println("Searching a " + b.length + " element array");
-      driver.combinedSearchTime(b);
         
       System.out.println("Searching a " + m.length + " element array");
       driver.combinedSearchTime(m);
