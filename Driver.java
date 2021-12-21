@@ -104,8 +104,8 @@ public class Driver {
 
 
 
-        int randomNum = (int) (Math.random() * 80000000);
-          System.out.println("Searching a " + size + " sized array.");
+        int randomNum = (int) (Math.random() * 10000000);
+           /* System.out.println("Searching a " + size + " sized array.");
           driver.individualSearchTime(b, randomNum);
         System.out.println("Searching a " + size / 10 + " sized array.");
         driver.individualSearchTime(b, randomNum / 10);
@@ -113,11 +113,22 @@ public class Driver {
         driver.individualSearchTime(c, randomNum / 100);
         System.out.println("Searching a " + size / 1000 + " sized array.");
         driver.individualSearchTime(d, randomNum / 10000);
-
+        */
+        System.out.println("Searching a " + b.size + " sized array.");
+          driver.individualSearchTime(b, randomNum);
+        
+        System.out.println("Searching a " + c.size + " sized array.");
+        driver.individualSearchTime(c, randomNum / 10);
+        
+        System.out.println("Searching a " + d.size + " sized array.");
+        driver.individualSearchTime(d, randomNum / 100);
+        
+        System.out.println("Searching a " + e.size + " sized array.");
+        driver.individualSearchTime(e, randomNum / 10000);
 
 
       //Searching Worst case scenarios (Last + First)
-      System.out.println("Searching Worst + best case scenarios");
+      System.out.println("Searching worst & best case scenarios");
       driver.start = System.currentTimeMillis();
       BinSearch.binSearch(a, 100000000);
       driver.end = System.currentTimeMillis();
@@ -130,13 +141,17 @@ public class Driver {
       }
       System.out.println("Searching a " + m.length + " element array");
       driver.combinedSearchTime(m);
-      System.out.println("Searching a 10000 element array");
+        
+      System.out.println("Searching a " + f.length + " element array");
       driver.combinedSearchTime(f);
-      System.out.println("Searching a 1000 element array");
+        
+      System.out.println("Searching a " + e.length + " element array");
       driver.combinedSearchTime(e);
-      System.out.println("Searching a 100 element array");
+        
+      System.out.println("Searching a " + g.length + " element array");
       driver.combinedSearchTime(g);
-      System.out.println("Searching a 10 element array");
+        
+      System.out.println("Searching a " + h.length + " element array");
       driver.combinedSearchTime(h);
     }
 
