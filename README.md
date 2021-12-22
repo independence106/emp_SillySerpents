@@ -4,7 +4,7 @@
 ## Tests Performed: 
   - Searched for random numbers in arrays varying in length multiple times
   - Searched for first, last, middle elements in arrays varying in length multiple times
-  - Searched for total time to searchf for every element in arrays varying in length
+  - Searched for total time to search for every element in arrays varying in length
   - Searched an array and its individual elements, comparing binsearch to linsearch
  
 ## Results: 
@@ -29,8 +29,29 @@
 | 10000000  | 8 |  4, 0, 0, 0, 0, 1, 0, 0 | 27196, 26290, 15715, 24262, 25041, 15339, 33712, 4884|
 | 1000000   | 8 | 0, 0, 0, 0, 0, 0, 0, 1  | 2322, 172, 2093, 2859, 3072, 2713, 2542 |  
 | 100000    | 8 | 0, 0, 0, 0, 0, 0, 0, 0 | 184, 118, 39, 0, 179, 94, 169, 278 | 
-| 10000     | 8 | 1, 0, 0, 0, 0, 0,  0, 0 | 11, 4, 16, 15, 13, 16, 16, 25
+| 10000     | 8 | 1, 0, 0, 0, 0, 0,  0, 0 | 11, 4, 16, 15, 13, 16, 16, 25 |
 
+#### Time to Search For Last Elements (x 100)
+| SIZE | # OF TRIALS | BinSearch Time for 100 repeated searches (milliseconds)  | LinSearch Time for 100 repeated searches (millisseconds) |
+|-----------------|:-------------|:---------------:|---------------:|
+| 80000000  | 1 | 0 | 30026 |
+| 10000000   | 1 | 0 | 3499 |
+| 1000000    | 1 | 0 | 344 |
+| 100000     | 1 | 0 | 16 |
+| 10000    | 1 | 0 | 15 |
+| 100    | 1 | 0 | 0 |
+| 10    | 1 | 0 | 0 |
+
+#### Time to Search For Middle Elements (x 100)
+| SIZE | # OF TRIALS | BinSearch Time for 100 repeated searches (milliseconds)  | LinSearch Time for 100 repeated searches (millisseconds) |
+|-----------------|:-------------|:---------------:|---------------:|
+| 80000000  | 1 | 0 | 15740 |
+| 10000000   | 1 | 0 | 1720 |
+| 1000000    | 1 | 0 | 133 |
+| 100000     | 1 | 0 | 0 |
+| 10000    | 1 | 0 | 0 |
+| 100    | 1 | 0 | 0 |
+| 10    | 1 | 0 | 0 |
 
   [Click Here for results](https://github.com/independence106/emp_SillySerpents/blob/main/results.txt)
 
