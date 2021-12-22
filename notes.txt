@@ -1,4 +1,18 @@
 /*
+GALLERY TOUR:
+- Team Weforgot:
+- They used an array to store the times taken for multiple trials 
+    - They could calculate the average time by summing up all of the elements and dividing by the number of elements, or find the worst time by finding the max value
+    - Is it efficient / convenient to use an array in terms of memory? Or would it be more memory conservative to run trials separately to determine worst or average case times?
+
+- Team PerfectPurplePetunias:
+    - BinSearch always takes less time than LinSearch relative to the size of the dataset, and with larger and larger arrays, this disparity is exaggerated
+ 
+Team 3LuckyDuckies:
+- They determined the time taken to determine 200 random values in an array using either LinSearch or BinSearch
+    - Searching for random values in the array doesn't seem to provide much useful information, because the total time taken to find those 200 random values was 3484 ms (w/ LinSearch) but the worst time to find an element w/ LinSearch was 17000 ms, so instead of using 200 random values, a median or a mean might provide more useful information for average run time, and determine the worst case to, as described in class, ensure that the program never takes an egregious amount of time.
+    
+    
 Vansh:
 - The worst case scenario for linear search is "n" guesses, whereas the worst case scenario for binary search is ~log_2(n) guesses, 
 so the binary search should require SIGNIFICANTLY less time even with worst case scenarios, especially as n tends to infinity
