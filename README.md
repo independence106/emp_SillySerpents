@@ -24,7 +24,7 @@
 | 10    | 1         | 0      |  0              |
 
 #### Time to Search For a Random Element\* (\*1000 times)
-| SIZE | # OF TRIALS | BinSearch Time for \*1000 repeated searches (milliseconds)  | LinSearch Time for \*1000 repeated searches (ms) |
+| SIZE | # OF TRIALS | BinSearch Time for \*1000 repeated searches (milliseconds)  | LinSearch Time for \*1000 repeated searches (millisseconds) |
 |-----------------|:-------------|:---------------:|---------------:|
 | 10000000  | 8 |  4, 0, 0, 0, 0, 1, 0, 0 | 27196, 26290, 15715, 24262, 25041, 15339, 33712, 4884|
 | 1000000   | 8 | 0, 0, 0, 0, 0, 0, 0, 1  | 2322, 172, 2093, 2859, 3072, 2713, 2542 |  
