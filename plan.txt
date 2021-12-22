@@ -2,6 +2,7 @@
 - Determine the time at the beginning of the linear search invocation and store it as a "start"
 - Determine the time at the end
 - Find their difference in the start and end times (time taken) and return it
+- Search for random values
 - Determine the maximum time it takes to find any certain index (WORST CASE)
 - Determine total time to search everything in an array
 - Adjust the above to work with the binary search
